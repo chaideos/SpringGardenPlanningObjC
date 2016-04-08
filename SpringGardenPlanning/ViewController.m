@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonClicked:(UIButton *)sender {
+    [self statusLabel].text = [NSString stringWithFormat:@"%@ button was clicked", [[sender titleLabel] text]];
+    
+}
 @end

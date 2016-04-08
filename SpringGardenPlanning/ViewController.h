@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+
+- (IBAction)buttonClicked:(UIButton *)sender;
+
 
 @end
 
